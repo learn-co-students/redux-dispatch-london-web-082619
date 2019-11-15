@@ -26,4 +26,4 @@ render()
 
 increaseCounter = () => dispatch({type: 'INCREASE_COUNT'})
 
-// setInterval(increaseCounter, 1000)
+setInterval(increaseCounter, 1000)
